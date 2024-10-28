@@ -1,1 +1,24 @@
-.
+
+#include <iostream>
+using namespace std;
+
+int main() {
+  
+    float balance = 0;   
+    cout << "Enter the initial Balance:";cin>>balance;
+    float deposit = 0; 
+    cout << "Enter the deposit amount:";
+cin>>deposit;
+    float withdrawal = 0;
+    cout << "Enter the withdrawal amount:";
+cin>>withdrawal;
+
+balance += deposit;
+    cout<<"Balance after deposit:"<<balance<<endl;
+    balance -= withdrawal;
+    cout << " Balance after withdrawal: "<<balance<< endl;
+
+// created by Abdullah Shahid
+
+    return 0;
+}
